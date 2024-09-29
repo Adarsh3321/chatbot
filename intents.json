@@ -1,0 +1,188 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "How are you?",
+        "What's up?",
+        "How's it going?"
+      ],
+      "responses": [
+        "Hello! How can I help you today, Adarsh?",
+        "Hi there, Adarsh! What can I do for you?",
+        "Greetings, Adarsh! How may I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "See you",
+        "I have to go"
+      ],
+      "responses": [
+        "Goodbye, Adarsh! Have a great day!",
+        "See you later, Adarsh! Feel free to ask if you have more questions.",
+        "Take care, Adarsh! Come back anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "I appreciate it",
+        "Many thanks"
+      ],
+      "responses": [
+        "You're welcome, Adarsh!",
+        "Happy to help, Adarsh!",
+        "Anytime, Adarsh!"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        "I don't know",
+        "I have no idea",
+        "Can you help me?",
+        "I need assistance",
+        "What should I do?"
+      ],
+      "responses": [
+        "I'm sorry, Adarsh, I don't have an answer for that.",
+        "I wish I could help you, Adarsh, but I'm not sure.",
+        "Let's try asking something else, Adarsh."
+      ]
+    },
+    {
+      "tag": "botinfo",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me about yourself",
+        "What can you do?",
+        "Give me some information about you"
+      ],
+      "responses": [
+        "I'm a chatbot designed to help you, Adarsh, with your questions.",
+        "You can call me ChatBot, Adarsh. I'm here to assist you!",
+        "I'm here to provide information and help with your queries, Adarsh."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "Tell me about the weather",
+        "Is it going to rain today?",
+        "What’s the forecast?",
+        "Do I need an umbrella?",
+        "Weather forecast",
+        "What's the weather report?"
+      ],
+      "responses": [
+        "I'm not equipped to provide weather updates, but you can check your local weather app, Adarsh!",
+        "For weather information, please refer to a weather website or app, Adarsh."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "I need a laugh",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "Joke",
+        "Give me a joke",
+        "Say something funny"
+      ],
+      "responses": [
+        "Why did the scarecrow win an award? Because he was outstanding in his field, Adarsh!",
+        "I told my computer I needed a break, and now it won't stop sending me beach wallpapers, Adarsh!",
+        "Why don’t scientists trust atoms? Because they make up everything, Adarsh!"
+      ]
+    },
+    {
+      "tag": "facts",
+      "patterns": [
+        "Tell me a fact",
+        "I want to know a fact",
+        "Share a fact with me",
+        "Do you know any interesting facts?",
+        "Fact",
+        "Give me a fact"
+      ],
+      "responses": [
+        "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old, Adarsh!",
+        "Bananas are berries, but strawberries aren’t. Crazy, right, Adarsh?",
+        "A group of flamingos is called a 'flamboyance,' Adarsh!"
+      ]
+    },
+    {
+      "tag": "quotes",
+      "patterns": [
+        "Tell me a quote",
+        "Share a quote",
+        "I want an inspirational quote",
+        "Give me a motivational quote",
+        "Quote"
+      ],
+      "responses": [
+        "The only way to do great work is to love what you do. – Steve Jobs. Remember that, Adarsh!",
+        "Believe you can and you're halfway there. – Theodore Roosevelt, Adarsh!",
+        "Success is not final, failure is not fatal: It is the courage to continue that counts. – Winston S. Churchill, Adarsh!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Can you assist me?",
+        "Help me",
+        "I am confused"
+      ],
+      "responses": [
+        "Of course, Adarsh! What do you need help with?",
+        "I'm here to help, Adarsh! Please tell me what you need."
+      ]
+    },
+    {
+      "tag": "faq",
+      "patterns": [
+        "What are your hours?",
+        "Where are you located?",
+        "What services do you offer?",
+        "How can I contact you?"
+      ],
+      "responses": [
+        "Our hours are from 9 AM to 5 PM, Monday to Friday, Adarsh.",
+        "We are located at 123 Main Street, Springfield, Adarsh.",
+        "You can contact us via email at support@example.com, Adarsh."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "I want to give feedback",
+        "How can I provide feedback?",
+        "I have a suggestion",
+        "Where can I leave a review?"
+      ],
+      "responses": [
+        "We appreciate your feedback, Adarsh! Please send it to feedback@example.com.",
+        "You can leave your suggestions on our feedback page, Adarsh."
+      ]
+    }
+  ]
+}
